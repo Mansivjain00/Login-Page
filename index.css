@@ -1,0 +1,111 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.first{
+    color: white;
+    display: flex;
+    justify-content: left;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.item{
+    color:white;
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.item:hover{  
+    background: transparent;
+    background-color: rgba(255, 255, 255, 0.158);
+    cursor: pointer;
+}
+
+.container{
+    color: white;
+    margin: auto;
+    margin-top: 75px;
+    width: 40%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+.stuff{
+    height: 45px;
+    border: none;
+    border-radius: 30px;
+    background: rgba(256,256,256,0.1);
+    color: white;
+    margin: 10px;
+}
+
+::placeholder{
+    color: white;
+    text-align: center;
+}
+
+#username{
+    text-align: center;
+}
+
+#password{
+    text-align: center;
+}
+
+#btn{
+    cursor: pointer;
+    background-color:#fc636b;
+}
+
+#keep{
+    margin-left: 19px;
+    cursor: pointer;
+    color: white;
+}
+
+#forgot{
+    cursor: pointer;
+    margin-left: 228px;
+}
+
+.extra{
+    margin: 15px 0px;
+}
+
+#create{
+    margin-left: 19px;
+    cursor: pointer;
+}
+
+#need{
+    cursor: pointer;
+    margin-left: 299px;
+}
+
+label{
+    cursor: pointer;
+}
+
+#image1{
+    width: 60px;
+    margin: auto;
+}
+
+.navBar2{
+    margin-top: 100px;
+    margin-right: 75px;
+    margin-left: 75px;
+    margin-bottom: 0px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
